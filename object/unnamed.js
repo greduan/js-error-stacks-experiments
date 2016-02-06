@@ -1,25 +1,25 @@
 'use strict'
 
-var foo = {}
+var objA = {}
 
-foo.a = function () {
-  foo.b()
+objA.a = function () {
+  objA.b()
 }
 
-foo.b = function () {
-  foo.c()
+objA.b = function () {
+  objA.c()
 }
 
-foo.c = function () {
-  foo.d()
+objA.c = function () {
+  objA.d()
 }
 
-foo.d = function () {
-  foo.e()
+objA.d = function () {
+  objA.e()
 }
 
-foo.e = function () {
+objA.e = function () {
   throw new Error('referenced-var-unnamed-stack')
 }
 
-foo.a()
+objA.a()

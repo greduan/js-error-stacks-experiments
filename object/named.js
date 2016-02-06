@@ -1,25 +1,25 @@
 'use strict'
 
-var obj = {}
+var objA = {}
 
-obj.a = function funcA () {
-  obj.b()
+objA.a = function funcA () {
+  objA.b()
 }
 
-obj.b = function funcB () {
-  obj.c()
+objA.b = function funcB () {
+  objA.c()
 }
 
-obj.c = function funcC () {
-  obj.d()
+objA.c = function funcC () {
+  objA.d()
 }
 
-obj.d = function funcD () {
-  obj.e()
+objA.d = function funcD () {
+  objA.e()
 }
 
-obj.e = function funcE () {
+objA.e = function funcE () {
   throw new Error('referenced-var-named-stack')
 }
 
-obj.a()
+objA.a()

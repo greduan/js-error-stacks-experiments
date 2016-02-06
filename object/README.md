@@ -11,11 +11,11 @@ $ node unnamed.js
   ^
 
 Error: referenced-var-unnamed-stack
-    at Object.foo.e (/Users/greduan/Code/js-error-stacks/object/unnamed.js:22:9)
-    at Object.foo.d (/Users/greduan/Code/js-error-stacks/object/unnamed.js:18:7)
-    at Object.foo.c (/Users/greduan/Code/js-error-stacks/object/unnamed.js:14:7)
-    at Object.foo.b (/Users/greduan/Code/js-error-stacks/object/unnamed.js:10:7)
-    at Object.foo.a (/Users/greduan/Code/js-error-stacks/object/unnamed.js:6:7)
+    at Object.objA.e (/Users/greduan/Code/js-error-stacks/object/unnamed.js:22:9)
+    at Object.objA.d (/Users/greduan/Code/js-error-stacks/object/unnamed.js:18:7)
+    at Object.objA.c (/Users/greduan/Code/js-error-stacks/object/unnamed.js:14:7)
+    at Object.objA.b (/Users/greduan/Code/js-error-stacks/object/unnamed.js:10:7)
+    at Object.objA.a (/Users/greduan/Code/js-error-stacks/object/unnamed.js:6:7)
     at Object.<anonymous> (/Users/greduan/Code/js-error-stacks/object/unnamed.js:25:5)
     at Module._compile (module.js:410:26)
     at Object.Module._extensions..js (module.js:417:10)
