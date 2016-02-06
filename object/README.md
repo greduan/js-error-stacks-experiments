@@ -1,4 +1,4 @@
-# Var-defined functions stack, named vs. unnamed anonymous functions
+# Object-defined functions stack, named vs. unnamed anonymous functions
 
 ## Error stacks
 
@@ -46,10 +46,10 @@ Error: referenced-var-named-stack
 
 ## Results
 
-If the function is referenced, i.e. assigned to a variable, if you name it says
+If the function is referenced, i.e. assigned to an object, if you name it says
 `at Object.funcE [as e]`, completely omiting mention of the object that is
-holding the function, in this case named `foo`.  If unnamed, however, it still
-retains a reference to the `foo` object in the error stack.
+holding the function, in this case named `objA`.  If unnamed, however, it still
+retains a reference to the `objA` object in the error stack.
 
 In my opinion it's more valuable to have unnamed functions when being referenced
 in an object.
